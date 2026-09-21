@@ -1,0 +1,3 @@
+name,vessel_class,sea_state,shaft_rate,n_blades,blade_pass_freq,cavitation_peak
+test_30s_fishing_v2,fishing_vessel,3,5.5,4,22.0,1800.0
+test_30s_cargo_v2,cargo_ship,3,2.0,5,10.0,800.0

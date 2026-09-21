@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local outputs / generated artefacts (do not commit)
+outputs/
+
+# Optional large datasets (keep sample clips in examples/)
+data/
+
+handover/
+outputs1/
