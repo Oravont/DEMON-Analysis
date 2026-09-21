@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+*.egg-info/
 
 # OS
 Thumbs.db
@@ -10,9 +11,15 @@ Thumbs.db
 
 # Local outputs / generated artefacts (do not commit)
 outputs/
+outputs*/
+plots/
 
-# Optional large datasets (keep sample clips in examples/)
-data/
-
+# Internal working material — not for publication
 handover/
-outputs1/
+
+# Large datasets — sample clips in examples/ are the exception
+data/
+*.npy
+!examples/*.npy
+*.wav
+*.h5
